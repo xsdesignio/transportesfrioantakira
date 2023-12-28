@@ -1,5 +1,5 @@
 <script>
-    
+    import { base } from "$app/paths";
     
     let links = [
       { name: 'home', link: '/' },
@@ -50,8 +50,8 @@
                         {#if link['active']}
                             <div class="floating-links">
                                 {#each link['sublinks'] as sublink}
-                                <a class="sublink" href="{sublink['link']}">
-                                    {#if window.location.href == sublink['link']}
+                                <a class="sublink" href="{ base + sublink['link']}">
+                                    {#if window.location.href == ( base + sublink['link'])}
                                         <span class="selected">{sublink['name']}</span>
                                     {:else}
                                         {sublink['name']}
@@ -62,9 +62,9 @@
                         {/if}
                     {:else}
                         <button class="link" on:click={() => {
-                            window.location.pathname = link['link']
+                            window.location.pathname = (base+link['link'])
                         }}>
-                            {#if window.location.href == link['link']}
+                            {#if window.location.href == (base + link['link'])}
                                 <span class="selected">{link['name']}</span>
                             {:else}
                                 {link['name']}
@@ -74,14 +74,14 @@
                 </div>
             {/each}
             <div class="link-wrapper contact-button-wrapper animate">
-                <a href="/contacto" class="default-button contact-button">Contactar</a>
+                <a href="{ base }/contacto" class="default-button contact-button">Contactar</a>
             </div>
         </nav>
     </div>
 
 {:else}
     <button class="mobile-button" type="button" on:click="{openCloseMenu}">
-        <img class="open-icon" src="/assets/icons/menu.svg" alt="" srcset="/assets/icons/menu.svg">
+        <img class="open-icon" src="{ base }/assets/icons/menu.svg" alt="" srcset="{ base }/assets/icons/menu.svg">
     </button>
 {/if}
 

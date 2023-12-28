@@ -1,9 +1,9 @@
 <script>
-
+    import { base } from "$app/paths";
 </script>
 
 
-<form action="/" method="POST" class="contact-form">
+<form action="{base}/" method="POST" class="contact-form">
     <div>
         <h1>Explícanos tu propuesta o cualquier duda que tengas sobre nuestros servicios de transporte.</h1>
         <h2>Te responderemos lo antes posible.</h2>

@@ -7,6 +7,7 @@
     import Columns2x from '../../../components/grids/Columns2x.svelte';
     import Card from '../../../components/cards/Card.svelte';
 
+    import { base } from "$app/paths"
     import { animate } from '../../../utils/animations.js';
 
     onMount(() => {
@@ -41,7 +42,7 @@
     </h2>
 
     <Columns2x>
-        <Card link="/servicios/transporte-nacional">
+        <Card link="/logistica/almacenaje">
             <h3>
                 Almacenamiento Seguro
             </h3>
@@ -52,7 +53,7 @@
             </p>
         </Card>
 
-        <Card link="/servicios/transporte-nacional">
+        <Card link="/logistica/almacenaje">
             <h3>
                 Distribución Eficiente
             </h3>
@@ -64,7 +65,7 @@
             </p>
         </Card>
 
-        <Card link="/servicios/transporte-nacional">
+        <Card link="/logistica/almacenaje">
             <h3>
                 Optimización de Cargas
             </h3>
@@ -75,7 +76,7 @@
             </p>
         </Card>
 
-        <Card link="/servicios/transporte-nacional">
+        <Card link="{base}/logistica/almacenaje">
             <h3>
                 Gestión Integral
             </h3>
@@ -99,7 +100,7 @@
         para cuidar de sus productos con el máximo cuidado y profesionalismo.
     </p>
     
-    <a class="default-button centered-button" href="/contacto">Contacta con nosotros</a>
+    <a class="default-button centered-button" href="{base}/contacto">Contacta con nosotros</a>
 </TextSection>
 
 <Footer>

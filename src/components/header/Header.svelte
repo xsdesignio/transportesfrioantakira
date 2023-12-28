@@ -1,6 +1,6 @@
 
 <script>
-    
+    import { base } from "$app/paths";
 
     import MobileMenu from "./MobileMenu.svelte";
 
@@ -40,17 +40,17 @@
 <svelte:window on:scroll={manageScroll} />
 <header class={smallHeader ? 'smaller' : '' }> 
     <a class="logo-container" href="/">
-        <img src="/logo2.png" alt="">
+        <img src="{ base }/logo2.png" alt="">
     </a>
     
     <nav>
         {#each links as link}
-            <a href="{link['link']}">
+            <a href="{ base + link['link']}">
                 {link['name']}
                 {#if 'sublinks' in link }
                     <div class="floating-links">
                         {#each link['sublinks'] as sublink}
-                        <a href="{sublink['link']}">
+                        <a href="{base + sublink['link']}">
                             {sublink['name']}
                         </a>
                         {/each}
@@ -59,7 +59,7 @@
             </a>
         {/each}
     </nav>
-    <a href="/contacto" class="default-button contact-button">Contacto</a>
+    <a href="{ base }/contacto" class="default-button contact-button">Contacto</a>
 
     <MobileMenu links={links}></MobileMenu>
 </header>

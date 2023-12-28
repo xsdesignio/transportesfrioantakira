@@ -3,7 +3,7 @@
     import Header from '../../../components/header/Header.svelte';
     import ImageHero from '../../../components/hero/ImageHero.svelte';
     import TextSection from '../../../components/sections/TextSection.svelte';
-
+    import { base } from "$app/paths"
 </script>
 
 
@@ -44,7 +44,7 @@
         conservas o cualquier otra mercancía que requiera un control de temperatura, Transportes Frío Antakira es la mejor opción.
     </p>
     
-    <a class="default-button centered-button" href="/contacto">Contacta con nosotros -></a>
+    <a class="default-button centered-button" href="{base}/contacto">Contacta con nosotros -></a>
 </TextSection>
 
 <Footer>

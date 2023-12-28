@@ -5,6 +5,7 @@
     import ImageHero from '../../../components/hero/ImageHero.svelte';
     import TextSection from '../../../components/sections/TextSection.svelte';
 
+    import { base } from '$app/paths';
     import { animate } from '../../../utils/animations.js';
 
     onMount(() => {
@@ -34,7 +35,7 @@
         Contacta con nosotros hoy mismo y descubre cómo nuestros servicios pueden ayudarte en el transporte de mercancías que necesita su negocio.
     </p>
     
-    <a class="default-button centered-button" href="/contacto">Contacta con nosotros -></a>
+    <a class="default-button centered-button" href="{base}/contacto">Contacta con nosotros -></a>
 </TextSection>
 
 <Footer>

@@ -2,9 +2,10 @@
     export let imageUrl;
     export let title;
     export let description;
+    import { base } from "$app/paths";
 </script>
 
-<article style="background-image: url({ imageUrl });">
+<article style="background-image: url({base + imageUrl });">
     <h3>{title}</h3>
     <p>{description}</p>
 </article>

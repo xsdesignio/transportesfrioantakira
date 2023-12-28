@@ -4,7 +4,7 @@
     import Header from '../../../components/header/Header.svelte';
     import ImageHero from '../../../components/hero/ImageHero.svelte';
     import TextSection from '../../../components/sections/TextSection.svelte';
-
+    import { base } from "$app/paths"
     import { animate } from '../../../utils/animations.js';
 
     onMount(() => {
@@ -39,7 +39,7 @@
         No dude en contactar con nosotros para obtener un presupuesto de forma gratuita.
     </p>
     
-    <a class="default-button centered-button" href="/contacto">Contacta con nosotros -></a>
+    <a class="default-button centered-button" href="{base}/contacto">Contacta con nosotros -></a>
 </TextSection>
 
 <Footer>

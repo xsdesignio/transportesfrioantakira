@@ -1,8 +1,9 @@
 <script>
     export let imageUrl;
+    import { base } from "$app/paths";
 </script>
 
-<article class="animate" style="background-image: url({ imageUrl });">
+<article class="animate" style="background-image: url({ base + imageUrl });">
 
 </article>
 

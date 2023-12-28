@@ -9,6 +9,7 @@
     import ImageCard from '../../../components/cards/ImageCard.svelte';
     import ListCard from '../../../components/cards/ListCard.svelte';
 
+    import { base } from "$app/paths";
     import { onMount } from 'svelte';
 
     import { animate } from '../../../utils/animations.js';
@@ -52,7 +53,7 @@
 <DefaultSection title="¿Qué te ofrecemos?">
     <Columns2x>
         
-        <ImageCard imageUrl="/assets/images/camionesenfila.jpeg">
+        <ImageCard imageUrl="{base}/assets/images/camionesenfila.jpeg">
         </ImageCard>
         <ListCard>
             <h2>Llegamos a España y Europa.</h2>
@@ -62,7 +63,7 @@
         </ListCard>
 
         {#if isMobile}
-            <ImageCard imageUrl="/assets/images/camionsoldefondo.jpeg">
+            <ImageCard imageUrl="{base}/assets/images/camionsoldefondo.jpeg">
             </ImageCard>
             <ListCard>
                 <h2>Ofrecemos seguridad en el transporte.</h2>
@@ -93,12 +94,12 @@
                     <li>Proporcionamos <b>los más altos estándares de calidad y seguridad</b> en el transporte.</li>
                 </ul>
             </ListCard>
-            <ImageCard imageUrl="/assets/images/camionsoldefondo.jpeg">
+            <ImageCard imageUrl="{base}/assets/images/camionsoldefondo.jpeg">
             </ImageCard>
         {/if}
 
     </Columns2x>
-    <a class="default-button centered-button" href="/contacto">Contacta con nosotros</a>
+    <a class="default-button centered-button" href="{base}/contacto">Contacta con nosotros</a>
 </DefaultSection>
 
 
@@ -133,7 +134,7 @@
         mundo del transporte internacional de mercancías."
     </p>
         
-    <a class="default-button centered-button" href="/contacto">Contacta con nosotros</a>
+    <a class="default-button centered-button" href="{base}/contacto">Contacta con nosotros</a>
 </TextSection>
 
 <Footer>

@@ -1,6 +1,6 @@
 <!-- ------------------------------------------ J S ------------------------------------------ -->
 <script>
-    
+    import { base } from "$app/paths";
 
     export let title;
     export let description;
@@ -21,7 +21,7 @@
         <p class="hero-description">
             { description }
         </p>
-        <a href="{buttonUrl}" class="default-button">
+        <a href="{ base + buttonUrl}" class="default-button">
             { buttonText }
         </a>
     </div>

@@ -1,9 +1,10 @@
 <script>
     export let link;
+    import { base } from "$app/paths";
 
 </script>
 
-<a href="{link}" class="service-card">
+<a href="{base + link}" class="service-card">
     <slot>
         <h1>Servicio</h1>
         <p>Descripción de Servicio</p>

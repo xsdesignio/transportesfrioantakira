@@ -1,6 +1,6 @@
 <!-- ------------------------------------------ J S ------------------------------------------ -->
 <script>
-    
+    import { base } from "$app/paths";
 
     export let title;
     export let description;
@@ -21,13 +21,13 @@
         <p class="hero-description">
             { description }
         </p>
-        <a href="{buttonUrl}" class="default-button">
+        <a href="{ base + buttonUrl}" class="default-button">
             { buttonText }
         </a>
     </div>
 
-    <video id="background-video" class="hero-media-asset is-visible" autoplay="true" muted="true" loop="true" playsinline="true" data-hero-video="{ videoUrl }" data-src-lg="{ videoUrl }" data-src-sm="{ videoUrl }">
-        <source src="{ videoUrl }" type="video/mp4">
+    <video id="background-video" class="hero-media-asset is-visible" autoplay="true" muted="true" loop="true" playsinline="true" data-hero-video="{ base + videoUrl }" data-src-lg="{ base + videoUrl }" data-src-sm="{ base + videoUrl }">
+        <source src="{ base + videoUrl }" type="video/mp4">
     </video>
     
 </section>

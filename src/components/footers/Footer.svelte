@@ -1,30 +1,31 @@
 <script>
+    import { base } from "$app/paths";
 </script>
 
 <section>
-    <img src="/logo2.png" alt="">
+    <img src="{base}/logo2.png" alt="">
     <div>
         <h3>TRANSPORTE TERRESTRE</h3>
         <ul>
-            <a href="/transportes/transporte-nacional">Transporte Nacional</a>
-            <a href="/transportes/transporte-internacional">Transporte Internacional</a>
+            <a href="{base}/transportes/transporte-nacional">Transporte Nacional</a>
+            <a href="{base}/transportes/transporte-internacional">Transporte Internacional</a>
         </ul>
     </div>
     <div>
         <h3>LOGÍSTICA</h3>
         <ul>
-            <a href="/logistica/almacenaje">Logística Integral</a>
-            <a href="/logistica/picking">Picking</a>
-            <a href="/logistica/grupaje">Grupaje</a>
+            <a href="{base}/logistica/almacenaje">Logística Integral</a>
+            <a href="{base}/logistica/picking">Picking</a>
+            <a href="{base}/logistica/grupaje">Grupaje</a>
         </ul>
     </div>
 
     <div>
         <h3>MERCANCÍAS</h3>
         <ul>
-            <a href="/mercancias/refrigerados">Multitemperatura</a>
-            <a href="/mercancias/especiales">Especiales</a>
-            <a href="/mercancias/lonas">Lonas</a>
+            <a href="{base}/mercancias/refrigerados">Multitemperatura</a>
+            <a href="{base}/mercancias/especiales">Especiales</a>
+            <a href="{base}/mercancias/lonas">Lonas</a>
         </ul>
     </div>
 </section>

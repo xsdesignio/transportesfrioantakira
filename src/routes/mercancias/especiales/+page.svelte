@@ -3,7 +3,7 @@
     import Header from '../../../components/header/Header.svelte';
     import ImageHero from '../../../components/hero/ImageHero.svelte';
     import TextSection from '../../../components/sections/TextSection.svelte';
-
+    import { base } from '$app/paths'
 </script>
 
 <svelte:head>
@@ -37,7 +37,7 @@
         Si necesita una solución de transporte para su negocio, cuente con nosotros, contáctenos hoy mismo y obtén más información sobre los servicios que tenemos para cubrir tu caso específico. Estamos disponibles para responder a cualquier pregunta que pueda tener y para proporcionarle una cotización personalizada para su proyecto. ¡Permítanos mostrarle cómo podemos hacer que su transporte de mercancías sea una experiencia sin problemas!
     </p>
     
-    <a class="default-button centered-button" href="/contacto">Contacta con nosotros -></a>
+    <a class="default-button centered-button" href="{base}/contacto">Contacta con nosotros -></a>
 </TextSection>
 
 <Footer>
