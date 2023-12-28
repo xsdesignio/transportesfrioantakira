@@ -1,5 +1,5 @@
 {
-  "name": "clients_hunter",
+  "name": "frioantakira",
   "version": "0.8.0",
   "scripts": {
     "dev": "vite dev",
@@ -25,7 +25,7 @@
     "vite": "^4.5.1"
   },
   "type": "module",
-  "description": "This starter contains everything you need to get up and running with [SvelteKit](https://kit.svelte.dev/) as a static site generator for your Markdown (and Svelte)-powered blog. [Check out the demo here](https://sveltekit-static-starter.netlify.app/), or view the [GitHub repo here](https://github.com/josh-collinsworth/sveltekit-blog-starter).",
+  "description": "Webpage for Transportes Frio Antakira SL",
   "main": "svelte.config.js",
   "author": "",
   "license": "ISC"
