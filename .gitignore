@@ -1,12 +1,5 @@
-.svelte-kit/
-package
 .DS_Store
 node_modules
+writer
 /.svelte-kit
 /package
-.env
-.env.*
-!.env.example
-vite.config.js.timestamp-*
-vite.config.ts.timestamp-*
-writer
