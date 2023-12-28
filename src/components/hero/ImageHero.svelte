@@ -13,7 +13,7 @@
 
 
 <!-- ------------------------------------------ H T M L ------------------------------------------ -->
-<section class="hero" style="background-image: url({imageUrl});">
+<section class="hero" style="background-image: url({base + imageUrl});">
     <div class="hero-content animate">
         <h1 class="hero-title">
             { title }

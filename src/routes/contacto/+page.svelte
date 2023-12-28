@@ -53,7 +53,7 @@ import ImageCard from "../../components/cards/ImageCard.svelte";
     <Card>
         <h4>Correo</h4>
         <p>
-            <a href="mailto:info@updatesi.com">administración@transportesfrioantakira.com</a>
+            <a href="mailto:info@transportesfrioantakira.es">administración@transportesfrioantakira.com</a>
         </p>
 
     </Card>

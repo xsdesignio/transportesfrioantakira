@@ -23,7 +23,6 @@ const config = {
 		},
 		prerender: {
 			entries: [
-				'*',
 				'/contacto/',
 				'/logistica/almacenaje/',
 				'/logistica/grupaje/',
@@ -33,7 +32,13 @@ const config = {
 				'/mercancias/refrigerados/',
 				'/transportes/transporte-internacional/',
 				'/transportes/transporte-nacional/',
-			]
+				'/sitemap.xml',
+			],
+			handleHttpError: ({ error, request }) => {
+				// Implement your error handling logic here
+				console.error(`Error during prerender`);
+				return { status: 200, html: 'An error occurred during prerender.' };
+			  },
 		}
 	}
 };

@@ -53,7 +53,7 @@
 <DefaultSection title="¿Qué te ofrecemos?">
     <Columns2x>
         
-        <ImageCard imageUrl="{base}/assets/images/camionesenfila.jpeg">
+        <ImageCard imageUrl="/assets/images/camionesenfila.jpeg">
         </ImageCard>
         <ListCard>
             <h2>Llegamos a España y Europa.</h2>
@@ -63,7 +63,7 @@
         </ListCard>
 
         {#if isMobile}
-            <ImageCard imageUrl="{base}/assets/images/camionsoldefondo.jpeg">
+            <ImageCard imageUrl="/assets/images/camionsoldefondo.jpeg">
             </ImageCard>
             <ListCard>
                 <h2>Ofrecemos seguridad en el transporte.</h2>

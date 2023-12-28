@@ -73,53 +73,53 @@
     >
     <h3 class="centered-thin-text">Transporte:</h3>
     <Columns2x>
-        <ServiceCard link="{base}/transportes/transporte-nacional">
+        <ServiceCard link="/transportes/transporte-nacional">
             <h1>Transporte Nacional</h1>
             <p>Consigue que tus mercancías lleguen a toda España mediante nuestro servicio de transporte Nacional. Con rutas personalizadas que aseguran la mayor velocidad y seguridad en el trayecto.</p>
-            <a href="/">Obtener más información</a>
+            <a href="{base}/transportes/transporte-nacional">Obtener más información</a>
         </ServiceCard>
-        <ServiceCard link="{base}/transportes/transporte-internacional">
+        <ServiceCard link="/transportes/transporte-internacional">
             <h1>Transporte Internacional</h1>
             <p>Llegamos a Francia y Portugal, con rutas a medida que garantizan el buen servicio y una respuesta dinámica e inmediata adaptada a las necesidades de cada cliente.</p>
-            <a href="/">Obtener más información</a>
+            <a href="{base}/transportes/transporte-internacional">Obtener más información</a>
         </ServiceCard>
     </Columns2x>
 
     <h3 class="centered-thin-text">Logística</h3>
     <Columns3x>
     
-        <ServiceCard link="{base}/logistica/almacenaje">
+        <ServiceCard link="/logistica/almacenaje">
             <h1>Almacenaje 24 h</h1>
             <p>Almacenamos tu mercancía en el corazón logístico de Andalucía (Antequera). Garantizando la seguridad de la mercancía y la facilidad de su transporte.</p>
-            <a href="/">Obtener más información</a>
+            <a href="{base}/logistica/almacenaje">Obtener más información</a>
         </ServiceCard>
 
-        <ServiceCard link="{base}/logistica/picking">
+        <ServiceCard link="/logistica/picking">
             <h1>Picking</h1>
             <p>Realizamos el picking de tus productos en el lugar y momento indicado. Estamos especializados en todo tipo de mercancías, cubriendo cuales sean sus necesidades.</p>
-            <a href="/">Obtener más información</a>
+            <a href="{base}/logistica/picking">Obtener más información</a>
         </ServiceCard>
 
-        <ServiceCard link="{base}/logistica/grupaje">
+        <ServiceCard link="/logistica/grupaje">
             <h1>Grupaje</h1>
             <p>Realizamos grupaje de mercancías para poder reducir costos y aumentar la eficiencia en el transporte, ya sea de forma nacional o initernacional.</p>
-            <a href="/">Obtener más información</a>
+            <a href="/logistica/grupaje">Obtener más información</a>
         </ServiceCard>
     </Columns3x>
 
     <h3 class="centered-thin-text">Tipos de Mercancías:</h3>
     <Columns3x>
-        <ServiceCard link="{base}/mercancias/refrigerados">
+        <ServiceCard link="/mercancias/refrigerados">
             <h1>Refrigerados y control de temperatura.</h1>
             <p>Transportamos todo tipo de mercancías con control de temperatura requerida.</p>
             <a href="/">Obtener más información</a>
         </ServiceCard>
-        <ServiceCard link="{base}/mercancias/especiales">
+        <ServiceCard link="/mercancias/especiales">
             <h1>Productos frágiles o con necesidades especiales</h1>
             <p>Transportamos mercancías que requieren una atención especial debido a su tamaño, forma, peso o fragilidad.</p>
             <a href="/">Obtener más información</a>
         </ServiceCard>
-        <ServiceCard link="{base}/mercancias/lonas">
+        <ServiceCard link="/mercancias/lonas">
             <h1>Protección contra el medio ambiente con camiones de Lona.</h1>
             <p>Transportamos mercancías que requieren protección contra las inclemencias del tiempo, como la lluvia, la nieve y el sol.</p>
             <a href="/">Obtener más información</a>
@@ -131,7 +131,7 @@
 
 <DefaultSection title="¿Por qué elegir Frío Antakira?">
     <Columns2x>
-        <ImageCard imageUrl="{base}/assets/images/sunshine.webp">
+        <ImageCard imageUrl="/assets/images/sunshine.webp">
         </ImageCard>
         <ListCard>
             <h2>Valores</h2>
@@ -145,7 +145,7 @@
         </ListCard>
 
         {#if isMobile}
-            <ImageCard imageUrl="{base}/assets/images/camionsoldefondo.jpeg">
+            <ImageCard imageUrl="/assets/images/camionsoldefondo.jpeg">
             </ImageCard>
             <ListCard>
                 <h2>Misión</h2>
@@ -164,11 +164,11 @@
                     <li>Proporcionar los más altos estándares de calidad y seguridad en el transporte.</li>
                 </ul>
             </ListCard>
-            <ImageCard imageUrl="{base}/assets/images/camionsoldefondo.jpeg">
+            <ImageCard imageUrl="/assets/images/camionsoldefondo.jpeg">
             </ImageCard>
         {/if}
 
-        <ImageCard imageUrl="{base}/assets/images/camionesenfila.jpeg">
+        <ImageCard imageUrl="/assets/images/camionesenfila.jpeg">
         </ImageCard>
         <ListCard>
             <h2>Visión</h2>

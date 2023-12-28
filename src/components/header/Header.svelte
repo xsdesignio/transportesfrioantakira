@@ -28,7 +28,6 @@
 
     function manageScroll () {
         if(window.scrollY > 50 && !smallHeader) {
-            console.log("hola")
             smallHeader = true;
         } else if(window.scrollY <= 50 && smallHeader) {
             smallHeader = false;

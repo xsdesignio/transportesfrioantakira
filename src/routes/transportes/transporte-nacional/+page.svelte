@@ -48,7 +48,7 @@
 <DefaultSection title="¿Qué te ofrecemos?">
     <Columns2x>
         
-        <ImageCard imageUrl="{base}/assets/images/sunshine.webp">
+        <ImageCard imageUrl="/assets/images/sunshine.webp">
         </ImageCard>
         <ListCard>
             <h2>Llegamos a todos los puntos de España.</h2>
@@ -58,7 +58,7 @@
         </ListCard>
 
         {#if isMobile}
-            <ImageCard imageUrl="{base}/assets/images/camionsoldefondo.jpeg">
+            <ImageCard imageUrl="/assets/images/camionsoldefondo.jpeg">
             </ImageCard>
             <ListCard>
                 <h2>Llegamos a todos los puntos de España.</h2>
@@ -84,7 +84,7 @@
                     <li>Proporcionamos <b>los más altos estándares de calidad y seguridad</b> en el transporte.</li>
                 </ul>
             </ListCard>
-            <ImageCard imageUrl="{base}/assets/images/camionsoldefondo.jpeg">
+            <ImageCard imageUrl="/assets/images/camionsoldefondo.jpeg">
             </ImageCard>
         {/if}
 

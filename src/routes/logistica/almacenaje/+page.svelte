@@ -76,7 +76,7 @@
             </p>
         </Card>
 
-        <Card link="{base}/logistica/almacenaje">
+        <Card link="/logistica/almacenaje">
             <h3>
                 Gestión Integral
             </h3>
