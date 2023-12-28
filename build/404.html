@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		
+		
+		<link rel="modulepreload" href="/_app/immutable/entry/start.8f171d2d.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/index.f73538f5.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/singletons.4a4e11b2.js">
+		<link rel="modulepreload" href="/_app/immutable/chunks/control.c2cf8273.js">
+		<link rel="modulepreload" href="/_app/immutable/entry/app.6e590509.js">
+		<!-- You can replace this block to update the Google fonts used in the project -->
+		
+		<link rel="icon" href="/favicon.png" />
+		<link rel="stylesheet" href="/css/styles.css" />
+		<link rel="stylesheet" href="/css/animations.css" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;600;800;900&display=swap" rel="stylesheet">
+		<!-- End Google Fonts block -->
+
+		<!-- You can add global <meta> tags here, but anything not global or dynamic should be a `<svelte:head>` tag on the proper page(s) instead. -->
+	</head>
+	<body>
+		<div id="svelte">
+			<script>
+				{
+					__sveltekit_9isetu = {
+						base: "",
+						env: {}
+					};
+
+					const element = document.currentScript.parentElement;
+
+					Promise.all([
+						import("/_app/immutable/entry/start.8f171d2d.js"),
+						import("/_app/immutable/entry/app.6e590509.js")
+					]).then(([kit, app]) => {
+						kit.start(app, element);
+					});
+				}
+			</script>
+		</div>
+	</body>
+</html>

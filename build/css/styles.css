@@ -1,0 +1,110 @@
+
+:root {
+    --default-blue: #453fde;
+    --dark-blue: #131158;
+    --light-blue: #e6e6ff;
+    --light-gray: #f0f0f0;
+}
+
+
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    margin-block: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    margin-block: 0;
+}
+
+
+p {
+    line-height: 1.5em;
+    font-size: 18px;
+    margin: 28px 0;
+}
+
+b {
+    color: var(--dark-blue);
+}
+a:hover {
+    font-weight: 600;
+    cursor: pointer;
+    color: var(--default-blue);
+}
+
+.default-button {
+    background-color: var(--default-blue);
+    color: white;
+    padding: 12px 24px !important;
+    font-size: 18px;
+    border-radius: 8px;
+    font-weight: 400;
+    text-decoration: none;
+    transition: .2s transform;
+}
+.default-button:hover {
+    border: none;
+    outline: 1px solid var(--default-blue);
+    font-weight: 400;
+    background-color: white;
+    font-weight: bold;
+    color: var(--default-blue) !important;
+    box-shadow: rgba(255, 255, 255, 0.6) 0px 0px 20px 0px;
+    transform: scale(1.1);
+}
+
+.gray-backgound {
+    background-color: var(--light-gray) !important;
+}
+
+
+.service-card h1,h2,h3,h4 {
+    font-size: 22px;
+    font-weight: 600;
+    padding: 10px 0;
+    color: var(--dark-blue);
+}
+
+.service-card p {
+    font-size: 18px;
+    padding: 10px 0;
+    color: rgb(75, 75, 75);
+}
+
+.service-card a {
+    font-size: 18px;
+    color: var(--default-blue);
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.centered-thin-text {
+    color: var(--dark-blue);
+    display: block;
+    text-align: center;
+    padding: 20px 0 0 0;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+
+.list-card {
+    padding: 40px;
+    color: var(--dark-blue);
+}
+.list-card h2 {
+    font-size: 32px;
+    font-weight: 600;
+}
+.list-card ul {
+    margin-top: 20px;
+}
+.list-card ul li {
+    font-size: 18px;
+    padding: 10px;
+}

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>		
+        <urlset			
+            xmlns="https://www.sitemaps.org/schemas/sitemap/0.9"			
+            xmlns:xhtml="https://www.w3.org/1999/xhtml"			
+            xmlns:mobile="https://www.google.com/schemas/sitemap-mobile/1.0"			
+            xmlns:news="https://www.google.com/schemas/sitemap-news/0.9"			
+            xmlns:image="https://www.google.com/schemas/sitemap-image/1.1"			
+            xmlns:video="https://www.google.com/schemas/sitemap-video/1.1"		
+        >			
+            <url>
+                <loc>https://www.transportesfrioantakira.es/</loc>
+                <priority>1.0</priority>
+                <changefreq>weekly</changefreq>
+            </url>
+            	
+            <url>
+                <loc>https://www.transportesfrioantakira.es/transportes/transporte-nacional</loc>
+                <priority>1.0</priority>
+                <changefreq>weekly</changefreq>
+            </url>
+            	
+            <url>
+            <loc>https://www.transportesfrioantakira.es/transportes/transporte-internacional</loc>
+                <priority>1.0</priority>
+                <changefreq>weekly</changefreq>
+            </url>
+            	
+            <url>
+                <loc>https://www.transportesfrioantakira.es/mercancias/especiales</loc>
+                <priority>1.0</priority>
+                <changefreq>weekly</changefreq>
+            </url>
+            	
+            <url>
+                <loc>https://www.transportesfrioantakira.es/mercancias/lonas</loc>
+                <priority>1.0</priority>
+                <changefreq>weekly</changefreq>
+            </url>
+            	
+            <url>
+                <loc>https://www.transportesfrioantakira.es/mercancias/refrigerados</loc>
+                <priority>1.0</priority>
+                <changefreq>weekly</changefreq>
+            </url>
+            	
+            <url>
+                <loc>https://www.transportesfrioantakira.es/logistica/almacenaje</loc>
+                <priority>1.0</priority>
+                <changefreq>weekly</changefreq>
+            </url>
+            	
+            <url>
+                <loc>https://www.transportesfrioantakira.es/logistica/grupaje</loc>
+                <priority>1.0</priority>
+                <changefreq>weekly</changefreq>
+            </url>
+            	
+            <url>
+                <loc>https://www.transportesfrioantakira.es/logistica/picking</loc>
+                <priority>1.0</priority>
+                <changefreq>weekly</changefreq>
+            </url>
+        </urlset>
